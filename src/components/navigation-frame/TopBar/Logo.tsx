@@ -1,4 +1,4 @@
-import fida from "../../../assets/stream.svg";
+import stream from "../../../assets/stream.svg";
 
 export const Logo = () => {
   return (
