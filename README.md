@@ -44,3 +44,9 @@ VITE_FEES_BPS= The fees you want to charge on transaction
 VITE_GEN_GO_TOKEN= The URL to fetch the auth token (might not be applicable)
 GENERATE_SOURCEMAP=false
 ```
+TODO
+
+Stream Protocol RPC
+Jupiter Aggregator, API implementation, token listing
+STR token & Dex implementation
+StreamPay Wallet integration

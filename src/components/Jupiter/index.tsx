@@ -68,7 +68,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
   const [swapping, setSwapping] = useState(false);
   const [loadingRoute, setLoadingRoute] = useState(true); // Loading by default
   const { data: tokenAccounts, refresh: refreshToken } = useTokenAccounts();
-  const [inputAmout, setInputAmount] = useState("1");
+  const [inputAmount, setInputAmount] = useState("1");
 
   useMemo(() => {
     setInputTokenInfo(tokenMap.get(INPUT_MINT_ADDRESS) as TokenInfo);
@@ -81,7 +81,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
     setLoadingRoute(true);
     api
       .v1QuoteGet({
-        amount: parseFloat(inputAmout) * Math.pow(10, inputTokenInfo?.decimals),
+        amount: parseFloat(inputAmount) * Math.pow(10, inputTokenInfo?.decimals),
         inputMint: inputTokenInfo?.address,
         outputMint: outputTokenInfo?.address,
         slippage: slippage,
@@ -98,7 +98,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
       .finally(() => {
         setLoadingRoute(false);
       });
-  }, [api, inputAmout, inputTokenInfo, outputTokenInfo]);
+  }, [api, inputAmount, inputTokenInfo, outputTokenInfo]);
 
   useEffect(() => {
     fetchRoute();
@@ -117,7 +117,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
     setFirstLoad(false);
   }, [inputTokenInfo, outputTokenInfo, loadingRoute]);
 
-  // ensure outputMint can be swapable to inputMint
+  // ensure outputMint can be swappable to inputMint
   useEffect(() => {
     if (inputTokenInfo) {
       const possibleOutputs = routeMap.get(inputTokenInfo.address);
@@ -330,7 +330,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
           </div>
           <div className="relative w-full p-10 my-5 rounded-lg bg-neutral">
             <input
-              value={inputAmout}
+              value={inputAmount}
               type="number"
               onChange={(e) => setInputAmount(e.target.value.trim())}
               className="absolute text-xl font-bold text-right bg-transparent right-4 top-4 input focus:outline-0"

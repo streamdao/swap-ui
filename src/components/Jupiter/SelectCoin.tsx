@@ -68,7 +68,7 @@ const Coin = ({ tokenInfo }: { tokenInfo: TokenInfo }) => {
 };
 
 const TOP_COINS = [
-  "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp", // FIDA
+  "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp", // stream
   "5P3giWpPBrVKL8QP8roKM7NsLdi3ie1Nc2b5r9mGtvwb", // STR
   "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt", // SRM
   "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E", // BTC
