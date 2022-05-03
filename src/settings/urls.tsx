@@ -1,5 +1,5 @@
 const Urls = {
-  twitter: "https://twitter.com/dao_stream",
+  twitter: "https://twitter.com/stream_protocol",
   github: "https://github.com/streamdao",
   website: "https://streamprotocol.org/",
   solscanAddress: "https://solscan.io/account/",
