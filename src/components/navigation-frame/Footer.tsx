@@ -1,11 +1,11 @@
-import stream from "../../assets/stream.svg";
+import fida from "../../assets/fida.svg";
 import Urls from "../../settings/urls";
 import { Link } from "../Link";
 
 const ITEMS = [
   { name: "Twitter", url: Urls.twitter },
   { name: "Website", url: Urls.website },
-  { name: "GitHub", url: Urls.github },
+  { name: "Github", url: Urls.github },
   { name: "Jupiter", url: Urls.jupiter },
 ];
 
@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <footer className="p-10 footer footer-center bg-gradient-to-r from-green-400 to-blue-500 text-primary-content">
       <div>
-        <img src={stream} className="w-10" />
+        <img src={fida} className="w-10" />
         <p className="font-bold">
-          Stream Protocol Ltd. <br />
+          Stream Protocol <br />
         </p>
       </div>
       <div>

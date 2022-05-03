@@ -68,9 +68,8 @@ const Coin = ({ tokenInfo }: { tokenInfo: TokenInfo }) => {
 };
 
 const TOP_COINS = [
-  "5P3giWpPBrVKL8QP8roKM7NsLdi3ie1Nc2b5r9mGtvwb", // STR
-  "vkG3Qrz6vCWjzDt5yCLEKYMYZ8hFZ27dmKe92btaZE3", // FYFY
   "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp", // FIDA
+  "5P3giWpPBrVKL8QP8roKM7NsLdi3ie1Nc2b5r9mGtvwb", // STR
   "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt", // SRM
   "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E", // BTC
   "So11111111111111111111111111111111111111112", // wSOL

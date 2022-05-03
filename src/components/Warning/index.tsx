@@ -26,7 +26,7 @@ export const Warning = ({
         <h2 className="mb-2 text-xl font-bold text-white">Warning</h2>
 
         <p className="text-white">
-          The Stream Protocol DEX is a fully decentralized digital asset exchange. No
+          The StreamDEX is a fully decentralized digital asset exchange. No
           representation or warranty is made concerning any aspect of the
           StreamDEX, including its suitability, quality, availability,
           accessibility, accuracy or safety. As more fully explained in the{" "}

@@ -1,11 +1,11 @@
-<h1 align="center">Stream Protocol Swap UI</h1>
+<h1 align="center">Stream Swap UI</h1>
 <br />
 <p align="center">
-<img width="250" src="https://imgur.com/AE0mvN0"/>
+<img width="250" src="https://imgur.com/GGC70gq"/>
 </p>
 <p align="center">
-<a href="https://twitter.com/dao_stream">
-<img src="https://img.shields.io/twitter/url?label=dao_stream&style=social&url=https%3A%2Fdao_stream%2Ftwitter.com%2">
+<a href="https://twitter.com/stream_protocol">
+<img src="https://img.shields.io/twitter/url?label=StreamProtocol&style=social&url=https%3A%2F%2Ftwitter.com%2FstreamProtocol">
 </a>
 </p>
 

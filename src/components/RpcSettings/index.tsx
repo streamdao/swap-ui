@@ -19,7 +19,7 @@ interface IRpc {
 }
 
 const RPCS: IRpc[] = [
-  { name: "Stream Protocol", url: RPC_URL as string },
+  { name: "Bonfida", url: RPC_URL as string },
   { name: "Serum", url: "https://solana-api.projectserum.com" },
   { name: "Custom", url: "" },
 ];
